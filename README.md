@@ -41,3 +41,4 @@ pixel value [1-65535].
 
 -o: write output image to the specified file. Existent output files will be overwritten.
 
+................
