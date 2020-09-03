@@ -1,22 +1,22 @@
->>> This is the code for the first lab-- CS551 :: PPM Image Transformations
+> This is the code for the first lab-- CS551 :: PPM Image Transformations
 
-==> Learning Objectives
+>> Learning Objectives
 
 >>> Upon completion of this assignment, you should be able:
-  1. To develop, compile, run and test C programs in a Linux environment 
-  2. To navigate Linux command lines reliably
+>>>> 1. To develop, compile, run and test C programs in a Linux environment 
+>>>> 2. To navigate Linux command lines reliably
 
 >>> The mechanisms you will practice using include:
-  • Linux command lines: manual pages, Linux commands
-  • C Programming: structs, pointers, memory allocation, getopt
+>>>> • Linux command lines: manual pages, Linux commands
+>>>> • C Programming: structs, pointers, memory allocation, getopt
 
-==> Program Specification
+>> Program Specification
 
 >>> NAME
-ppmcvt – convert ppm files
+>>>> ppmcvt – convert ppm files
 
 >>> SYNOPSIS
-ppmcvt [bg:i:r:smt:n:o:] file
+>>>> ppmcvt [bg:i:r:smt:n:o:] file
 
 >>> DESCRIPTION
 ppmcvt manipulates input Portable Pixel Map (PPM) files and outputs a new image based on its given options. Only one option that specifies a transformation can be used at a time.
