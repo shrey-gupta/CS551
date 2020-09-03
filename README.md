@@ -1,27 +1,27 @@
 >>> This is the code for the first lab-- CS551 :: PPM Image Transformations
 
->>> Learning Objectives
+==> Learning Objectives
 
-Upon completion of this assignment, you should be able:
+>>> Upon completion of this assignment, you should be able:
   1. To develop, compile, run and test C programs in a Linux environment 
   2. To navigate Linux command lines reliably
 
-The mechanisms you will practice using include:
+>>> The mechanisms you will practice using include:
   • Linux command lines: manual pages, Linux commands
   • C Programming: structs, pointers, memory allocation, getopt
 
-Program Specification
+==> Program Specification
 
-NAME
+>>> NAME
 ppmcvt – convert ppm files
 
-SYNOPSIS
+>>> SYNOPSIS
 ppmcvt [bg:i:r:smt:n:o:] file
 
-DESCRIPTION
+>>> DESCRIPTION
 ppmcvt manipulates input Portable Pixel Map (PPM) files and outputs a new image based on its given options. Only one option that specifies a transformation can be used at a time.
 
-In the synopsis, options followed by a ‘:’ expect a subsequent parameter. The options are:
+>>> In the synopsis, options followed by a ‘:’ expect a subsequent parameter. The options are:
 -b convert input file to a Portable Bitmap (PBM) file. (DEFAULT)
 
 -g: convert input file to a Portable Gray Map (PGM) file using the specified max grayscale
